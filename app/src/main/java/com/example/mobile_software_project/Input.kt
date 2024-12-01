@@ -67,7 +67,6 @@ fun Input(modifier: Modifier = Modifier) {
                             calories = foodDetail.calories
                         )
                         MealDataStore.addMeal(meal) // MealDataStore에 저장
-                        println("Saved data: $meal") // 로그 출력
                         selectedAffirmation = null
                     },
                     onCancel = { selectedAffirmation = null } // 취소 시 이전 화면으로
