@@ -3,4 +3,16 @@
     <string name="Input">식사 입력하기</string>
     <string name="Show">식사 보여주기</string>
     <string name="analysis">식사 분석하기</string>
+    <string name="cake">조각케잌</string>
+    <string name="coffee">아이스아메리카노</string>
+    <string name="icetea">아이스티</string>
+    <string name="madeleine">마들렌</string>
+    <string name="curtlet_2">돈가스</string>
+    <string name="dumpling_1">만두</string>
+    <string name="gukbap_2">국밥</string>
+    <string name="lunch_2">도시락</string>
+    <string name="noodle_1">국수</string>
+    <string name="potrice_1">솥밥</string>
+    <string name="ramen_2">해장라면</string>
+    <string name="udon_1">우동</string>
 </resources>
