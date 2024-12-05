@@ -42,15 +42,15 @@ fun MainApp() {
         }
         // 식사 입력 화면
         composable("input") {
-            Input()
+            Input(navController)
         }
         // 식사 리스트 화면
         composable("show") {
-            Show()
+            Show(navController)
         }
         // 식사 분석 화면
         composable("analysis") {
-            Analysis()
+            Analysis(navController)
         }
     }
 }
