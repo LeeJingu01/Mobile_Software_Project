@@ -18,6 +18,12 @@ object Datasource {
         Affirmation( R.drawable.potrice_1,"상록원 1층"),
         Affirmation( R.drawable.ramen_2,"상록원 2층"),
         Affirmation( R.drawable.udon_1,"상록원 1층"),
+        Affirmation(R.drawable.concheese,"상록원 1층"),
+        Affirmation(R.drawable.shrimp,"상록원 2층"),
+        Affirmation(R.drawable.tteok,"상록원 2층"),
+        Affirmation(R.drawable.udon2,"기숙사"),
+        Affirmation(R.drawable.kimch,"기숙사"),
+        Affirmation(R.drawable.mixed,"기숙사"),
     )
     fun getAffirmationsByLocation(location: String): List<Affirmation> {
         return affirmation.filter { it.location == location }
